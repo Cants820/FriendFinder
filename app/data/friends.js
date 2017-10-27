@@ -9,9 +9,11 @@ var friendsArray = [
   {
     friendName: "Jerome",
     friendEmail: "jerome@example.com",
-    questions:[1,3,4,5,6,7,1,7,2,5,],
+    questions:["1","3","4","5","2","1","1","2","3","5"]
   }
 ];
+
+
 
 // Note how we export the array. This makes it accessible to other files using require.
 module.exports = friendsArray;
